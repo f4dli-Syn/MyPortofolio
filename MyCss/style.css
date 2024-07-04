@@ -31,15 +31,47 @@ body {
   transform: scale(1.1);
 }
 
+.net {
+  margin-top: 2rem;
+}
+#text-project {
+  padding: 0.5rem 0px !important;
+  margin: 2.5rem 0rem !important;
+  opacity: 1;
+  transition: opacity 0.8s ease;
+  cursor: pointer;
+}
+
+#text-project:hover {
+  opacity: 0.6;
+}
+
+#text-1 {
+  font-size: 75% !important;
+  font-family: "Rubik", sans-serif;
+}
+#text-2 {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text2 {
+  color: whitesmoke !important;
+}
+
 @media (max-width: 768px) {
   #project-row {
     padding: 0px 1rem;
     margin: 0px 3rem;
   }
 
-  .img-link {
-    padding: 5px;
-    margin: 2px;
-    box-sizing: border-box;
+  #text-project {
+    padding: 0.5rem 0px !important;
+    margin: 2.5rem 0rem !important;
+    font-size: 75%;
+  }
+
+  #text-2 {
+    font-size: 25px !important;
   }
 }
